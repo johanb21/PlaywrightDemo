@@ -1,6 +1,6 @@
 import {test as base} from '@playwright/test';
 import {LoginPage} from '../pages/SauceDemoLogin.ts';
-import loginData from '../test-data/loginData.json';
+import loginData from '../test-data/loginData.json' with { type: 'json' };
 
 type MyFixtures101 = {
     loginPage: LoginPage;

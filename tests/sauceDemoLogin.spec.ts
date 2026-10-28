@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
-import { LoginPage } from '../pages/SauceDemoLogin';
-import loginData from '../test-data/loginData.json'
+import { LoginPage } from '../pages/SauceDemoLogin.ts';
+import loginData from '../test-data/loginData.json' with {type: 'json'};
 
 //MULTIPLE TEST CASES INCLUDED
 

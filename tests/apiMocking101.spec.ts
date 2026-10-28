@@ -1,5 +1,5 @@
-import { APIRequestContext, expect, test } from '@playwright/test';
-import tags from '../test-data/mocks/conduitTags.json';
+import {expect, test } from '@playwright/test';
+import tags from '../test-data/mocks/conduitTags.json' with { type: 'json' };
 
 test('APIMocking101', async ({ page }) => {
 

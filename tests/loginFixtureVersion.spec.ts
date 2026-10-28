@@ -1,4 +1,4 @@
-import {test, expect} from '../fixtures/sauceDemoLoginFixture';
+import {test, expect} from '../fixtures/sauceDemoLoginFixture.ts';
 
 // This imported test now has all the context from the Fixture  
 // instead of the default '@playwright/test'

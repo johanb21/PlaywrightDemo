@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
-import { LoginPage } from '../pages/SauceDemoLogin';
-import dynamicLoginData from '../test-data/dynamicLoginData.json'
+import { LoginPage } from '../pages/SauceDemoLogin.ts';
+import dynamicLoginData from '../test-data/dynamicLoginData.json' with {type : 'json'};
 
 //Dynamic Execution for all test users
 dynamicLoginData.forEach((data) => {
